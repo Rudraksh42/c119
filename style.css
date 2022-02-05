@@ -1,0 +1,53 @@
+body{
+background-color: rgb(8, 230, 64);
+background-position: center;
+background-size: cover;
+}
+
+h1{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bolder;
+color: rgb(0, 247, 255);
+background-color: rgba(55, 0, 253, 1);
+
+
+}
+
+h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    background-color: rgba(55, 0, 253, 1);
+   color: rgb(0, 255, 157);
+
+    
+    }
+
+#Show_Sketch{
+
+float: right;
+margin-top: 2px;
+}
+
+p{
+    font-weight: bolder;
+   color: rgb(98, 0, 255);
+}
+
+canvas{
+ margin-top:100px;
+ margin-bottom:100px;
+ border-color: black;
+ border-radius: 10px;
+ border-width: 5px;
+ border-style: solid;
+ animation-name: example ;
+ animation-duration: 5s;
+ animation-iteration-count: infinite;
+}
+
+@keyframes example {
+
+from{box-shadow: 3px 5px 30px rgb(255, 0, 0);}    
+to{box-shadow: 3px 5px 30px rgb(37, 0, 250);}    
+    
+}
